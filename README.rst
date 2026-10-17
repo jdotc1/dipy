@@ -1,3 +1,13 @@
+**Diffusion MRI analysis in Python**
+
+This is a development fork of `DIPY <https://github.com/dipy/dipy>`__, a Python library for diffusion MRI research. Upstream provides methods spanning diffusion modeling, tractography, registration, and related image analysis, giving researchers components to assemble and study computational imaging workflows. DIPY's research-use scope is preserved in the original README below.
+
+**Contribution to review:** `PR #4234 <https://github.com/dipy/dipy/pull/4234>`__ proposes allowing dataset MD5 checksum verification in Python runtimes that restrict cryptographic uses of MD5. The contribution concerns data-integrity checks in dataset handling, rather than changes to scientific algorithms.
+
+Start with the `official installation guide <https://docs.dipy.org/stable/user_guide/installation.html>`__ and `DIPY documentation <https://dipy.org>`__ for examples and method references. The `branch comparison <https://github.com/dipy/dipy/compare/master...jdotc1:master>`__ shows the default branch alongside upstream; the proposed checksum change is linked separately above.
+
+----
+
 .. image:: doc/_static/images/logos/dipy-logo.png
   :height: 180px
   :target: https://dipy.org
